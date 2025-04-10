@@ -2,11 +2,11 @@ Portfolio Website
 ====================
 
 This is my portfolio in a website to better 
-visualize it and review how i've come 
+visualize it and review how far i've come 
 
 All projects will be shown here and breifely explained 
 
-# What I want to implement 
+### What I want to implement 
 * picture of project/output 
 * summary of how long it took (when did i start and end) and what i learned 
 * show what i have learned and used in the project 
@@ -18,9 +18,9 @@ Games
 ### Battleships
 
 > This project is writen in C++
-> 
+> Here you can find **[Battleships](https://github.com/smile3io/Battleships "bum bam splash")**.
 >
-> ## What i have learned 
+> ### What i have learned 
 > * vectors
 > * maps 
 > * pairs 
@@ -30,7 +30,7 @@ Simulations
 -----------
 ### placeholder
 
-> ## What i have learned 
+> ### What i have learned 
 > * nothing
 
 Render engine 
