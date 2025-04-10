@@ -1,21 +1,41 @@
-# Website
 Portfolio Website
 ====================
 
-A Second Level Header
----------------------
+This is my portfolio in a website to better 
+visualize it and review how i've come 
 
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
+All projects will be shown here and breifely explained 
 
-The quick brown fox jumped over the lazy
-dog's back.
+# What I want to implement 
+* picture of project/output 
+* summary of how long it took (when did i start and end) and what i learned 
+* show what i have learned and used in the project 
+* show what else i learned and experimented with
+* be able to sort the projects with various filters 
 
-### Header 3
+Games 
+------
+### Battleships
 
-> This is a blockquote.
+> This project is writen in C++
 > 
-> This is the second paragraph in the blockquote.
 >
-> ## This is an H2 in a blockquote
+> ## What i have learned 
+> * vectors
+> * maps 
+> * pairs 
+> * object based programming 
+
+Simulations
+-----------
+### placeholder
+
+> ## What i have learned 
+> * nothing
+
+Render engine 
+-------------
+### placeholder
+
+> ## What i have learned 
+> * shit
