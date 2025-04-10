@@ -1,4 +1,4 @@
-# Portfolio Website
+Portfolio Website
 ====================
 
 Welcome to my portfolio website! Here, you can explore the projects I've been working on and see how my skills have grown.
@@ -14,7 +14,7 @@ All projects will be shown here and briefly explained.
 
 These are features I'm planning to add in the future, so stay tuned!
 
-## Games 
+Games 
 ------
 ### Battleships (active) 
 
@@ -27,7 +27,7 @@ Here you can find **[Battleships](https://github.com/smile3io/Battleships "bum b
 > * **Pairs:** Utilized `std::pair` to represent coordinates on the game board, making it easy to work with row and column values together.
 > * **Object-oriented programming:** Practiced object-oriented principles by creating classes for `Player`, `Ship`, and `Settings` to structure the game logic.
 
-## Simulations
+Simulations
 -----------
 ### Coming Soon!
 
