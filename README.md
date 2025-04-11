@@ -8,9 +8,10 @@ All projects will be shown here and briefly explained.
 
 #### Main page
 
-- some icons on what languages i do most
-- honrable mentions for projects 2-4
-- sleak UI
+- Some icons on what languages I use the most
+- Honourable mentions for projects 2-4
+- Sleak UI
+- Current porject
 
 #### Side pages
 
@@ -18,7 +19,7 @@ All projects will be shown here and briefly explained.
   - Picture of project/output
   - Ability to sort the projects using different filters (language, topic)
   - single project
-    - Summary of how long it took (start and end dates) and what I learned
+    - Summary of how long it took (start and end dates(month/year)) and what I learned
     - Showcase the technologies and concepts I learned and used in the project
     - Show any extra things I learned and experimented with
 - education in a timechart
