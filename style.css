@@ -197,6 +197,7 @@ span{
 }
 
 .skills{
+    font-family: 'neuton';
     position: relative;
     display: flex;
     justify-content: center;
@@ -221,24 +222,72 @@ span{
             border: 5px solid var(--grey);
             border-radius: 30px;
 
+            h5{
+                padding-left: 0.5rem;
+            }
+
             img{
                 height: 3rem;
                 width: auto;
             }
         }
+
+        .language-button:hover{
+            transform: scale(1.01);
+        }
     }
 
     .topics{
         position: absolute;
-        top: 40%;
+        bottom: 10%;
         font-size: 1rem;
+
+        li{
+            display: flex;
+        }
     }
 
     .projects{
         position: absolute;
-        bottom: 25%;
-        font-size: 1rem;
-        border: 5px solid var(--white);
+        width: 75%;
+        top: 40%;
+        padding: 1rem;
+        font-size: 1.25rem;
+
+        a.title{
+            padding-left: 2.5rem;
+            font-size: 2.5rem;
+            color: var(--teal);
+        }
+
+        .projects-grid{
+            
+            width: 100%;
+            display: flex;
+            padding: .2rem;
+            /*border: 2px solid var(--teal);*/
+
+            .project-card{
+                width: 33.3%;
+                height: 100%;
+                margin: 1rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                padding: 1.75rem;
+                padding-top: 1.25rem;
+                border: 5px solid var(--white);
+                border-radius: 30px;
+                background-color: var(--grey);
+                
+                h3{
+                    padding-bottom: 1.5rem;
+                }
+            } 
+
+            .project-card:hover{
+                transform: scale(1.05);
+            }
+        }
     }
 }
 
