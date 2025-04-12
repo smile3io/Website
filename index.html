@@ -21,7 +21,7 @@
 
     <section id="home" class="home">
       <div class="home-image">
-        <img src="images/nebular.png" alt="crazy black hole" />
+        <img src="images/nebula.png" alt="crazy black hole" />
       </div>
       <div class="home-content">
         <h1>⠀Hi, I'm <span>Jonas</span>⠀</h1>
@@ -41,29 +41,68 @@
     </section>
 
     <section id="skills" class="skills">
-      <br />
-      <h2>My Best Languages & Specializations</h2>
-      <div class="skills-summary">
-        <p>
-          I'm really good at: <br />
-          C, C++, HTML, CSS <br />
-          I specialize in: <br />
-          [Your Specialization 1], [Your Specialization 2].
-        </p>
-      </div>
-
-      <h2>My Best Projects</h2>
-      <div class="projects-grid">
-        <!--3x1-->
-        <div class="project-card">
-          <h3>[Project Title 1]</h3>
-          <p>[Short description of project 1]</p>
-          <a href="projects.html">View Project</a>
+      <div class="languages">
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-plain.svg"
+          />
+          <h5>C</h5>
         </div>
-        <div class="project-card">
-          <h3>[Project Title 2]</h3>
-          <p>[Short description of project 2]</p>
-          <a href="#">View Project</a>
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg"
+          />
+          <h5>C++</h5>
+        </div>
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+          />
+          <h5>C#</h5>
+        </div>
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+          />
+          <h5>Python</h5>
+        </div>
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
+          />
+          <h5>HTML</h5>
+        </div>
+        <div class="language-button">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+          />
+          <h5>CSS</h5>
+        </div>
+        <!--clickable languages that take you to to projects site where the language is set as a filter-->
+      </div>
+      <div class="topics">
+        <h2>My Best Languages & Specializations</h2>
+        <div class="summary">
+          <p>
+            I'm really good at: C, C++, HTML, CSS <br />
+            I specialize in: Games, Web development
+          </p>
+        </div>
+      </div>
+      <div class="projects">
+        <h2>My Best Projects</h2>
+        <div class="projects-grid">
+          <!--3x1-->
+          <div class="project-card">
+            <h3>[Project Title 1]</h3>
+            <p>[Short description of project 1]</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>[Project Title 2]</h3>
+            <p>[Short description of project 2]</p>
+            <a href="#">View Project</a>
+          </div>
         </div>
       </div>
     </section>
@@ -71,17 +110,22 @@
     <section id="contact" class="contact">
       <h2>Contact Me</h2>
       <p>Feel free to reach out!</p>
-    </section>
-    <footer>
-      <p>&copy; 2025 Jonas</p>
-      <!--
       <div class="social-icons">
+        <a href="#">github</a>
+        <a href="#">email</a>
+        <a href="#">linkedin</a>
+        <a href="#">instagram</a>
+        <a href="#">x-twitter</a>
+        <!--
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-github"></i></a>
         <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        -->
       </div>
-      -->
+    </section>
+    <footer>
+      <p>&copy; 2025 Jonas Bauersfeld</p>
     </footer>
     <script>
       const header = document.querySelector("header");
