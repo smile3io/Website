@@ -238,6 +238,7 @@ span{
         position: absolute;
         bottom: 25%;
         font-size: 1rem;
+        border: 5px solid var(--white);
     }
 }
 
