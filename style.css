@@ -205,18 +205,28 @@ span{
         justify-content: space-around;
 
         .language-button{
-            font-size: 1.9rem;
+            font-size: 2rem;
             height: 0;
             padding: 3vh 3vh 3vh 3vh;
             margin: 0 2vw 0 2vw;
+            cursor: pointer;
             display: flex;
             align-items: center;
             transition: 0.1s ease-in;
             border: 5px solid var(--grey);
             border-radius: 30px;
 
-            h5{
+            p{
                 padding-left: .4vw;
+            }
+
+            a{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
             }
 
             img{
@@ -242,8 +252,7 @@ span{
 
         .project-card{
             height: 100%;
-            padding: 1.75rem;
-            padding-top: 1.75rem;
+            padding: 2vh;
             transition: 0.4s ease-in;
             border: 5px solid var(--grey);
             border-radius: 30px;
@@ -262,18 +271,17 @@ span{
                     color: var(--teal);
                     margin-bottom: 2vh;
                     font-size: 1.75rem;
-                    padding-bottom: 10vh;
                 }
             }
 
             .project-image{
-                padding-left: 19vw;
+                padding-left: 15.5vw;
+                padding-top: 1vh;
                 opacity: 0;
                 position: absolute;
                 transition-delay: 0s;
                 transition: .2s ease-out;
                 pointer-events: none;
-                
             }
 
             img{
@@ -300,7 +308,7 @@ span{
     }
 
     .topics{
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         font-weight: 150;
         width: 80vw;
         margin: 7vh 0 3vh 0;
@@ -311,6 +319,8 @@ span{
 
         a{
             color: var(--white);
+            padding-bottom: .25vh;
+            border-bottom: 5px solid var(--grey);
         }
 
         a:hover{
