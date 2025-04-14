@@ -27,8 +27,8 @@
 }
 
 html{
-    font-size: 100%;
-    scroll-snap-type: both proximity;
+    height: 100vh;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -36,9 +36,12 @@ body{
     font-family: 'neuton';
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
-    background-color: var(--black);
     color: var(--white);
+    background-color: var(--black);
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 header{
@@ -49,9 +52,6 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem 3%;
-    /*filter: drop-shadow(10px);*/
-    /*background-color: transparent;*/
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,45 +65,47 @@ header{
         object-fit: cover;
     }
 }
-
 .logo{
-    font-size: 3.5rem;
+    font-size: 3vw;
     color: var(--teal);
     font-weight: 1000;
     cursor: pointer;
     transition: 0.5s ease;
 }
-
 .logo:hover{
     transform: scale(1.1);
 }
-
 nav a{
-    font-size: 2.25rem;
+    font-size: 1.85vw;
     color: var(--white);
     margin-left: 4rem;
     transition: 0.3s ease;
     border-bottom: 13px solid transparent;
 }
-
 nav a:hover{
     color: var(--teal);
     border-bottom: 4px solid var(--teal);
 }
-
 section{
-    height: 100vh;
-    padding: 5rem 9% 5rem;
-    scroll-snap-align: start;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
 }
-
+.home::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("images/nebula.png") top center;
+    background-size: cover;
+    transform: translateZ(-1px) scale(2.2);
+}
 .home{
+    padding: 5rem 9%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 5rem 9%;
-    overflow: hidden;
+    transform-style: preserve-3d;
 
     .home-image{
         position: absolute;
@@ -134,44 +136,12 @@ section{
         backdrop-filter: invert(100%);*/
         /*backdrop-filter: blur(1px);*/
         border-radius: 100px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, .5), 5px 5px 70px rgba(0, 0, 0, 1);
 
         h1{
-            font-size: 6rem;
+            font-size: 5vw;
             font-weight: 600;
             line-height: 1.3;
-        }
-    }
-}
-
-.activeProject{
-    font-family: 'apollo';
-    position: absolute;
-    right: 3%;
-    transform: translateY(-120%);
-    text-align: right;
-    max-width: 15%;
-    text-align: center;
-    backdrop-filter: blur(1px);
-    border-radius: 50px;
-    z-index: 0;
-
-    h2{
-        font-size: 2.5rem;
-        font-weight: 450;
-        line-height: 1.3;
-    }
-
-    .activeProject-image{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-
-        img{
-            width: 85%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 40px;
-            border: 5px solid var(--black);
         }
     }
 }
@@ -191,6 +161,7 @@ span{
 }
 
 .skills{
+    background: var(--black);
     display: flex;
     justify-content: center;
     flex-direction: column;
