@@ -182,9 +182,7 @@ section{
         }
     }
 
-    .projects{
-        
-    }
+    
 
     .topics{
         font-size: 1.55rem;
@@ -207,6 +205,17 @@ section{
         }
     }
 }
+
+
+/*
+.project-card:hover > .project-card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+*/
+
+
+
 
 /*
 @media(max-width:830px){
